@@ -15,7 +15,7 @@ shell_command:
 
 It can then be called from automations like this in automations.yaml:
 This is a test message that gets sent dayly at 18:00 
-´´´
+```
 - id: '1234567890'
   alias: Test message
   triggers:
@@ -26,7 +26,7 @@ This is a test message that gets sent dayly at 18:00
     data:
       arguments: -action send_sms -nr 123456789 -msg "The message"
   mode: single
-´´´
+```
 
-
+Happy coding!
  
