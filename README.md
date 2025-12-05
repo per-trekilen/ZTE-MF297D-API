@@ -26,7 +26,7 @@ This is a test message that gets sent dayly at 18:00
     data:
       arguments: -action send_sms -nr 123456789 -msg "The message"
   mode: single
-  ´´´
+´´´
 
 
  
